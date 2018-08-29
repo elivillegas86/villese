@@ -1,0 +1,17 @@
+
+Imágenes
+	Logo de la empresa (logo + texto, logo solo, texto solo) ver al menos 3 opciones jugando con el cambio de tamaño, Esto lo puede sacar LEandro de algun lado
+	imágenes de objetivos
+
+Estilo
+	tipografía general
+	clases y etiquetas normalizadas para aplicar el css
+
+Redacción:
+	objetivos - títulos (objetivos) y su descriciones en pocas palabras, cada uno tiene que buscar 3 y después elegimos los mejores
+	Casos de éxito/clientes - nombre e íconos (preguntar cuales quieren publicar)
+	Soluciones (los servicios que ofrese la empresa)
+	Trayectoria/reseña de la empresa
+		Misión, visión y valores (algo sobre el SGC)
+		Certificaciones
+	Contacto - buscar los datos
