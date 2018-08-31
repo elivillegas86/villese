@@ -1,0 +1,56 @@
+
+####
+Pagina estatica y responsive. 
+####
+- Página Principal
+	- Cabecera:
+		- Logo: va a ser el Logo actual de la Pagina de Nómade
+		- Menú: el menú va a constar de las siguientes secciones Principal, Productos, Servicios, Empresa
+	- Cuerpo:
+		- Imagen Principal: Seria una imagen (o una serie de imágenes tipo Carrusel) representativa de Nómade sobre la misma se va a colocar una muy breve descripción de Nómade para dar un indicio de a qué se dedica.
+		- Listado de Productos destacados: Seria un imagen representativa del producto con una muy breve descripción sobre el producto, van a contener un link para acceder a la sección Producto para leer más.
+		- Servicios
+		- Experiencia y/o Clientes (Casos de Éxito): Seria un listado de los clientes que confiaron en nosotros, solo se mostraría el nombre y logo.
+	- Pie Pagina:
+		- Teléfono Sucursal o sucursales
+		- Mail de la empresa
+		- Botones para ir a las Redes Sociales de la Empresa
+		- Icono de Contacto: Abre una página nueva (o un popup) para hacer una consulta al mail de la Empresa.
+
+****
+PROXIMAS ENTREGAS
+****
+- Pagina Productos -> RRHH , Financiero, Expedientes, Autogestion, Previsional. 
+	- Cabecera: Igual que la página principal
+	- Cuerpo: 
+		- Listado de los Productos: va a ser igual que el que va a salir en la página principal, sin descripción, solo nombre del producto.
+		- Sección Producto Específico: Se va a cargar con la información del producto q este activo en el Listado de Productos.
+			- Grafico del Mapa del Proceso
+			- Logo/Imagen Representativa del Producto: Puede ser la misma que la del Listado pero mas grande, también contiene la descripción detallada del Producto
+			- Otra Imagen Representativa del Producto + Ventajas y/o Fortalezas del Producto
+	- Pie Pagina: Igual que la página principal
+
+####
+1) ¿Cuales son los productos especificos?
+2) Como representamos la unificacion de los productos....grafico, diagrama, esquema. La idea es uno Sencillo y estatico donde se muestre el paso en el que se encuentra en cada momento.
+####
+- Pagina Servicios
+	- Cabecera: Igual que la página principal
+	- Cuerpo: 
+		- Imagen Representativa del Servicio acompañado de la descripción del Servicio
+	- Pie Pagina: Igual que la página principal
+
+- Pagina Empresa
+	- Cabecera: Igual que la página principal
+	- Cuerpo: 
+		- Imagen y/o video representativo de la empresa
+		- Descripción ampliada de la historia de la empresa
+		- Misión, visión, meta, etc... 
+		- Compromiso con la calidad: Certificaciones que posee la empresa (calidad, genexus, etc...)
+		- Socios estratégicos (ACP, Telkne, UBA, etc...)
+		- Clientes: lo mismo que la página principal
+	- Pie Pagina: Igual que la página principal
+
+####
+Mision y Vision: Debe ser proporcionada por Mariano.
+####
