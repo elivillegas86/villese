@@ -1,4 +1,3 @@
-Armar mapa de navegación (equema con bocetos)
 
 Imágenes
 	Logo de la empresa (logo + texto, logo solo, texto solo) ver al menos 3 opciones jugando con el cambio de tamaño, Esto lo puede sacar LEandro de algun lado
