@@ -1,0 +1,18 @@
+.intro-2 {
+            background: url("https://scontent.fmdz1-1.fna.fbcdn.net/v/t1.0-9/29053_125441410818536_4713923_n.jpg?_nc_cat=0&oh=ee32b588f28fcd0a07835b0cc668e857&oe=5C3183EA")no-repeat center center;
+            background-size: cover;
+        }
+            
+        .navbar {
+            background-color: transparent;
+        }
+        
+        .top-nav-collapse {
+            background-color: #4285F4;
+        }
+        
+        @media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #4285F4;
+            }
+        }
