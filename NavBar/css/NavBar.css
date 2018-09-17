@@ -1,0 +1,21 @@
+.intro-2 {
+            background: url("../recursos/imagen.jpg")no-repeat center center;
+            background-size: cover;
+        }
+            
+.navbar {
+            /*background-color: transparent;*/
+            background-color: #45526e;
+            opacity: 0.7;
+        }
+        
+.top-nav-collapse {
+            background-color: #45526e;/*#4285F4;*/
+            opacity: 0.7;  
+        }
+
+@media only screen and (max-width: 768px) {
+            .navbar {
+                background-color: #45526e;/*#4285F4;*/
+            }
+        }
