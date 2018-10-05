@@ -36,7 +36,7 @@
 <!--Main Navigation-->
 <header>
 	<!-- <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-light"> -->
-	<nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+	<nav class="navbar fixed-top navbar-expand-lg navbar-dark" data-toggle="sticky-onscroll">
 		<a class="navbar-brand" href="#">
 			<img src="img/menu/nomadesoft-logo.png" alt="NomadeSoft" />
 			<img src="img/menu/nomadesoft-texto-blanco.png" alt="NomadeSoft" />
@@ -47,11 +47,16 @@
 		</button>
 		<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
 			<div class="navbar-nav ml-auto">
-				<a class="nav-item nav-link ripple active" href="#secInicio">Inicio <span class="sr-only">(current)</span></a>
+				<!-- <a class="nav-item nav-link ripple active" href="#secInicio">Inicio <span class="sr-only">(current)</span></a>
 				<a class="nav-item nav-link ripple" href="#secProductos">Productos</a>
 				<a class="nav-item nav-link ripple" href="#secServicios">Servicios</a>
 				<a class="nav-item nav-link ripple" href="#secNosotros">Nosotros</a>
-				<a class="nav-item nav-link ripple" href="#secCasosDeExito">Casos de éxito</a>
+				<a class="nav-item nav-link ripple" href="#secCasosDeExito">Casos de éxito</a> -->
+				<a class="nav-item nav-link ripple scroll active" data-target="#secInicio">Inicio <span class="sr-only">(current)</span></a>
+				<a class="nav-item nav-link ripple scroll" data-target="#secProductos">Productos</a>
+				<a class="nav-item nav-link ripple scroll" data-target="#secServicios">Servicios</a>
+				<a class="nav-item nav-link ripple scroll" data-target="#secNosotros">Nosotros</a>
+				<a class="nav-item nav-link ripple scroll" data-target="#secCasosDeExito">Casos de éxito</a>
 			</div>
 		</div>
 	</nav>
@@ -69,8 +74,8 @@
 	</section>
 </header>
 
-<body>
-
+<!-- <body> -->
+<body data-spy="scroll" data-target=".navbar" data-offset="10">
 	<!-- Inicio Seccion Productos -->
 
 	<section id="secProductos" class="section-interna">
