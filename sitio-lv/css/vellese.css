@@ -1,0 +1,75 @@
+/* general */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+.section-interna{
+    padding-top: 100px;
+}
+
+/* navbar */
+
+.navbar {
+    /*background-color: transparent;*/
+    background-color: #45526e;
+    opacity: 0.7;
+}
+
+.top-nav-collapse {
+    background-color: #45526e;/*#4285F4;*/
+    opacity: 0.7;  
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #45526e;/*#4285F4;*/
+ 	}
+}
+
+/* inicio */
+
+.jumbotron {
+	background-image: url('../img/inicio/nomade-soft-inicio.png');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    color: white;
+    padding-top: 10em;
+    padding-bottom: 10em;
+    transition: 1000ms;
+}
+
+.jumbotron:hover {
+  background-image: url("../img/inicio/nomade-soft-inicio-2.png");  
+  transition: 1000ms;
+}
+
+/* clientes */
+
+.blog .carousel-indicators {
+	left: 0;
+	top: auto;
+    bottom: -40px;
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
