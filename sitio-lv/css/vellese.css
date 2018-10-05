@@ -23,6 +23,32 @@ body {
     opacity: 0.7;
 }
 
+/* .nav-link {
+    transition: 1s;
+}
+
+.nav-link:hover {
+    background-color: #a3a3a3;
+    opacity: 0.6;
+    transition: 0.5s;
+} */
+
+.ripple {
+    background-position: center;
+    transition: background 0.5s;
+}
+.ripple:hover {
+    /* background: #a3a3a3 radial-gradient(circle, transparent 1%, #6a91e7 1%) center/15000%; */
+    background: #45526e radial-gradient(circle, transparent 1%, #6a91e7 1%) center/15000%;
+    border-radius: 6px;
+    -moz-border-radius;
+}
+.ripple:active {
+    background-color: #a3a3a3;
+    background-size: 100%;
+    transition: background 0s;
+}
+
 .top-nav-collapse {
     background-color: #45526e;/*#4285F4;*/
     opacity: 0.7;  
