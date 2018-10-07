@@ -1,3 +1,7 @@
 https://bootsnipp.com/snippets/dl6ez
 https://codepen.io/mephysto/pen/ZYVKRY
 https://owlcarousel2.github.io/OwlCarousel2/
+
+
+https://codepen.io/MarkitDigital/pen/ZpEByz
+https://www.freecodecamp.org/forum/t/how-to-add-active-class-on-a-single-page-site/193291
