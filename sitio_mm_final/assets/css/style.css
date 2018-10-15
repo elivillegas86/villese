@@ -631,6 +631,7 @@ textarea::-ms-input-placeholder
 .single_features_left img{
     height:460px;
 }
+
 .single_features_right {
     margin-top:10%;
 }
@@ -648,6 +649,12 @@ textarea::-ms-input-placeholder
     font-size:18px;
     margin-top:3%;
 }
+
+.fondo_features{
+    background: #2A3132;
+}
+
+
 
 /* Service2 Section */
 .service2{}
@@ -1106,6 +1113,7 @@ textarea::-ms-input-placeholder
     content: "";
     display: table;
     clear: both;
+
 }
 .cd-pricing-features li {
     width: 100px;
@@ -1656,5 +1664,7 @@ xkeyframes
 	text-decoration: none;
 
 }
+
+
 
 
