@@ -195,6 +195,7 @@ Section
     background-color: #3f3b3b;
 }
 
+
 .sections {
     padding-top: 100px;
     padding-bottom: 100px;
@@ -635,8 +636,13 @@ textarea::-ms-input-placeholder
 /* features  section */
 
 .fondo-prod{
-    ^background-color: #3f3b3b;
+    background-color: #3f3b3b;
 }
+
+.fondo-prod-detalle{
+    background-color: #696262;
+}
+
 
 .single_features_left img{
     height:460px;
