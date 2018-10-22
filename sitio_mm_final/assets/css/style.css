@@ -233,7 +233,7 @@ section .subtitle-half h5 {
 
 
 .heading {
-    margin-bottom: 4rem;
+    margin-bottom: 4px;
 }
 .overlay {
     background-color: rgba(0, 0, 0, 0.3);
@@ -641,6 +641,33 @@ textarea::-ms-input-placeholder
 
 .fondo-prod-detalle{
     background-color: #696262;
+    color: black;
+}
+
+
+.imagen-producto-derecha{
+     float: right;
+     padding-top: 50px;
+     padding-left: 15px;
+}
+
+.texto-producto-derecha{
+    text-indent: 345px;
+}
+
+.imagen-producto-izquierda{
+     float: left;
+     padding-top: 50px;
+     padding-right: 15px;
+}
+
+.texto-producto-izquierda{
+    text-indent: 100px;
+}
+
+
+.cabecera-productos{
+     color: white;
 }
 
 
