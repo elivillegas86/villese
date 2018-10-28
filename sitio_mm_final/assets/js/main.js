@@ -114,7 +114,7 @@ jQuery(document).ready(function ($) {
      * STICKY scroll
      ---------------------------------------------*/
 
-    $.localScroll();
+    //$.localScroll();
 
 
 
@@ -170,6 +170,44 @@ jQuery(document).ready(function ($) {
         return false;
     });	
 
+
+    //Modal
+    $('#exampleModal').on('shown.bs.modal', function (event) {
+	  var button = $(event.relatedTarget); // Button that triggered the modal
+	  var recipient = button.data('gen'); // Extract info from data-* attributes
+	  // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+	  // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+	  var titulo = 'Presentación NomadeSoft';
+	  var url = 'https://www.youtube.com/embed/eqnqAHJSShw';
+	  switch(recipient) {
+    case 'GENPREV':
+        titulo = 'Demo Previsional';
+        url = 'https://www.youtube.com/embed/2N0bhTaSEOM';
+        break;
+    case 'GENRRHH':
+        titulo = 'Demo Recursos Humanos';
+        url = 'https://www.youtube.com/embed/hbhSM1a-1HY';
+        break;
+    case 'GENEXP':
+        titulo = 'Demo Expedientes';
+        url = 'https://www.youtube.com/embed/M5HiNGbkzu4';
+        break;
+    case 'GENFIN':
+        titulo = 'Demo Financiero';
+        url = 'https://www.youtube.com/embed/2Ns7SAzNs0M';
+        break;
+    case 'GENAUTO':
+        titulo = 'Demo Autogestion';
+        url = 'https://www.youtube.com/embed/ByciVh5BEEs';
+        break;
+    };
+    	
+	  var modal = $(this);
+	  modal.find('.modal-title').text(titulo);
+
+	  var myiframe = $('#myiframe');
+	  myiframe.attr('src',url);
+	  	});
 
     //End
 });
