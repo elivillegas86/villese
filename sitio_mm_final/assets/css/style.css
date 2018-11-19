@@ -1711,7 +1711,7 @@ xkeyframes
 
 /*pagina productos*/
 .home-prod{
-    background:url(../images/productos/geNRRHH.jpg) no-repeat center center;
+    background:url(../../recursos/productos/principal.jpg) no-repeat center center;
     color:#000;
     background-size:cover;
     -webkit-background-size:cover;
@@ -1719,65 +1719,23 @@ xkeyframes
     -o-background-size:cover;
     -ms-background-size:cover;
 }
-.home-wrapper{
-    padding:180px 0px;
-    overflow:hidden;
-}
-.home-content h1{
-    font-size:48px;
-    font-weight:700;
-    margin-bottom: 30px;
-    color: #fff;
-}
-.home-content p{
-    margin-bottom: 30px;
-    color: #fff;
-}
-.home-content .home-contact{
-    margin-top: 90px;
-}
 
-.home-contact .input-group{display: block;}
-.home-content .input-group .form-control {
-    position: relative;
-    z-index: 2;
-    float: left;
-    width: 65%;
-    margin-bottom: 0;
-    height: 60px;
-
-}
-.home-content .home-contact input[type="text"]{
-    color:#083d4c;
-}
-.home-content .home-contact input[type="submit"]{
-    display:inline-block;
-    width:35%;
-    background:#083d4c;
-    color: #083d4c;
-    border: 0px;
-}
-.home-content .home-contact input[type="submit"]:hover{
-    background-color: rgba(0, 173, 62, 0.75);
-}
-.home-contact p{
-    margin-top: 20px;
+.home-serv{
+    background:url(../../recursos/servicios/principal.jpg) no-repeat center center;
     color:#000;
-    font-size:15px;
-}
-.form-control {
-    border: 1px solid #6b909b;
-    height:45px;
-    border-radius: 0px;
-    margin-right: -3px;
-}
-.head_title {
-    margin-bottom: 40px;
-}
-.head_title p {
-    max-width: 55%;
-    margin: 10px auto;
-    padding-bottom: 20px;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
 }
 
-
+.home-cli{
+    background:url(../../recursos/clientes/principal.jpg) no-repeat center center;
+    color:#000;
+    background-size:cover;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -ms-background-size:cover;
+}
