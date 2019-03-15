@@ -47,6 +47,15 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     font-weight: bold;
 }
 
+.fondo-prod{
+    background-color: #3f3b3b;
+}
+
+.lightbg {
+   /* background-color: #f9f9f9;*/
+   background-color: #336B87;
+}
+
 html,
 body {
     font-size: 15px;
@@ -216,10 +225,6 @@ p:last-child {
    color: #ffffff;
 }
 
-.lightbg {
-   /* background-color: #f9f9f9;*/
-   background-color: #336B87;
-}
 .transition {
     -webkit-transition: all 300ms linear;
     -moz-transition: all 300ms linear;
@@ -230,10 +235,6 @@ p:last-child {
 /*
 Section
 */
-
-.fondo-prod{
-    background-color: #3f3b3b;
-}
 
 
 .sections {
