@@ -1,2 +1,12 @@
-*Arreglar la imagen del logo...las letras son blancas y no se ve la palabra Nomade, o ver que color de fondo le metemos para que se vean.
-*Arreglar la imagen de nomade que sale en la seccion productos. Si es necesario cambiamos el monitor y todo.
+Viejo
+	*Arreglar la imagen del logo...las letras son blancas y no se ve la palabra Nomade, o ver que color de fondo le metemos para que se vean.
+	*Arreglar la imagen de nomade que sale en la seccion productos. Si es necesario cambiamos el monitor y todo.
+
+20190315
+	*Hacelerar página
+	** ver tamaño de las imágenes
+	*** que sea el tamaño justo que queremos mostrar
+	*** que el código diga que tamaño tiene para que lo cargue junto con el texto
+	** 
+
+
