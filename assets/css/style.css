@@ -53,7 +53,15 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 .lightbg {
    /* background-color: #f9f9f9;*/
-   background-color: #336B87;
+   background: url(../../recursos/Index/cover1.jpg) no-repeat top center;
+    background-size: 100% 100%;
+}
+
+.portfolio{
+    background: url(../../recursos/Index/cover2.jpg) no-repeat top center;
+    background-size: 100% 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 html,
@@ -1542,16 +1550,6 @@ xkeyframes
 }
 
 /*For portfolio Section*/
-.portfolio{
-    /*background: url(../images/bg.png) no-repeat top center fixed;*/
-    background-color: #2A3132;
-    background-size:cover;
-    -webkit-background-size:cover;
-    -moz-background-size:cover;
-    -ms-background-size:cover;
-    width: 100%;
-    overflow: hidden;
-}
 
 .community-edition{
     background:#fff;
