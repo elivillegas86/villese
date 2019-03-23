@@ -91,6 +91,11 @@ a:focus {
     text-decoration: none;
     outline: none;
 }
+li:hover,
+li:active,
+li:focus {
+    text-decoration: underline dotted #00578a;
+}
 a,
 button,
 a span {
@@ -103,7 +108,10 @@ a span {
 }
 .btn:focus,
 .btn:active {
-    outline: inherit;
+    /*outline: inherit;*/
+    outline-width: 1px;
+    outline-style: dashed;
+    outline-color: red;
 }
 *,
 *:before,
@@ -607,7 +615,7 @@ textarea::-ms-input-placeholder
     background-color: transparent;
 }
 .navbar-brand{
-	margin-top:-5px;	
+	margin-top:-45px;	
 }
 
 
