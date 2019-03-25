@@ -29,6 +29,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 .ns-texto1 {
     font-family: serif;
+    font-size: 18px;
 }
 
 .ns-texto2 {
@@ -82,6 +83,10 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 .fade:hover
 {
     opacity:1;
+}
+
+.ns-clientes{
+    background: url(../../recursos/Index/NomadeSoft-Caso_Exitos.jpg) no-repeat top center;
 }
 
 html,
