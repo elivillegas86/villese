@@ -11,12 +11,15 @@
     <!-- Custom Css -->
     <link rel="stylesheet" href="recursos/css/index.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Inicio NavBar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary navbar-fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
         <div class="container">
-            <a class="navbar-brand" href="index4.html">
-                <img src="recursos/index/nomadesoft-logo.png" alt="NomadeSoft" />
+            <a class="navbar-brand navbar-brand-logo-visible" href="#" id="logo-horizontal" >
+                <img src="recursos/index/nomadesoft-logo-horizontal.png" alt="NomadeSoft"/>
+            </a>
+            <a class="navbar-brand navbar-brand-logo-invisible" href="#" id="logo" >
+                    <img src="recursos/index/nomadesoft-logo.png" alt="NomadeSoft"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,20 +27,23 @@
             
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index4.html">Inicio <span class="sr-only">(current)</span></a>
+                    <li class="nav-item">
+                        <a class="nav-link ripple" href="#principal">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#productos">Productos</a>
+                        <a class="nav-link ripple" href="#productos">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#servicios">Servicios</a>
+                        <a class="nav-link ripple" href="#servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#nosotros">Nosotros</a>
+                        <a class="nav-link ripple" href="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#clientes">Nuestros Clientes</a>
+                        <a class="nav-link ripple" href="#clientes">Casos de éxito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link ripple" href="#footer-menu">Contáctenos</a>
                     </li>
                 </ul>
             </div>
@@ -112,18 +118,18 @@
         <div class="container">
             <div class="row animate-in">
                 <div class="col-md-6">
-                    <img class="d-md-block d-none zoom" src="recursos/index/nomadesoft-nosotros.png" alt="NomadeSoft-Productos" width="400">
+                    <img class="d-md-block d-none zoom" src="recursos/index/nomadesoft-casosdeexito.png" alt="NomadeSoft-Productos" width="400">
                 </div>
                 <div class="text-left d-flex flex-column justify-content-center col-md-6">
                     <h1 class="mb-3 ns-section_title">Casos de éxito</h1>
                     <p class="lead ns-section_text">Satisfacer a las partes interesadas, orientando todos los esfuerzos y recursos, con el fin de cumplir los compromisos asumidos.</p>
                     <div id="carouselCasosDeExito" class="carousel slide" data-ride="carousel">
-                        <ol class="carousel-indicators">
+                        <!-- <ol class="carousel-indicators">
                             <li data-target="#carouselCasosDeExito" data-slide-to="0" class="active"></li>
                             <li data-target="#carouselCasosDeExito" data-slide-to="1"></li>
                             <li data-target="#carouselCasosDeExito" data-slide-to="2"></li>
                             <li data-target="#carouselCasosDeExito" data-slide-to="3"></li>
-                        </ol>
+                        </ol> -->
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-20" src="recursos/clientes/nomade-soft-logo-thumbnail-fiaes.png">
@@ -204,5 +210,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <!-- <script src="recursos/js/scrolling-nav.js"></script> -->
+    <script src="recursos/js/index.js"></script>
 </body>
 </html>

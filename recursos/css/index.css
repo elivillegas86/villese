@@ -56,6 +56,10 @@
     -o-transform : scale(1.2);        /* Opera */
 }
 
+.carousel-inner img {
+margin: auto;
+}
+
 /* Fuentes de Texto */
 .ns-title_ppal {
     /* FALTA AGREGAR ESTILO */
@@ -74,9 +78,73 @@
 }
 
 .ns-carrusel_text {
-    /* FALTA AGREGAR ESTILO */
+    text-align: center;
+    /*font-size: 2vw;*/ /* Ajusta el tamaño según el ancho de la pantalla.*/
+    font-size: 2vh; /* Ajusta el tamaño según el alto de la pantalla.*/
+    /*font-size: 3.5vw;*/ /* Ajusta el tamaño según el tamaño de la pantalla.*/
 }
 
 .ns-footer_text {
     /* FALTA AGREGAR ESTILO */
+}
+
+.navbar {
+    /*background-color: transparent;*/
+    background-color: #005a87;
+    opacity: 0.7;
+    padding-top: 0.8em !important;
+    padding-bottom: 0.8em !important;
+    -webkit-transition:padding 0.2s ease;
+    -moz-transition:padding 0.2s ease; 
+    -o-transition:padding 0.2s ease;        
+    transition:padding 0.2s ease;
+}
+
+.navbar2 {
+    background-color: #005a87;
+    opacity: 1;
+    padding-top: 0.2em !important;
+    padding-bottom: 0.2em !important;
+    opacity: 1;
+    -webkit-transition:padding 0.2s ease;
+    -moz-transition:padding 0.2s ease; 
+    -o-transition:padding 0.2s ease;        
+    transition:padding 0.2s ease;
+}
+
+.navbar-brand {
+    background-color: #a3a3a3;
+    background-size: 100%;
+    transition: background 5s;
+    border-radius: 6px;
+    -moz-border-radius;
+}
+
+.navbar-brand-logo-visible {
+    visibility: visible;
+}
+
+.navbar-brand-logo-invisible {
+    visibility: hidden;
+}
+
+.navbar-nav li > .active {
+    background-color: #a3a3a3;
+    background-size: 100%;
+    transition: background 0s;
+    border-radius: 6px;
+    -moz-border-radius;
+}
+
+.navbar-nav li {
+    background-position: center;
+    transition: background 0.5s;
+    border-radius: 6px;
+    -moz-border-radius;
+}
+
+.navbar-nav li:hover {
+    background: #45526e radial-gradient(circle, transparent 1%, #6a91e7 1%) center/15000%;
+    border-radius: 6px;
+    -moz-border-radius;
 }
