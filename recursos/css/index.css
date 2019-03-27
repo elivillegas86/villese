@@ -1,0 +1,82 @@
+
+/* Background Imagen Principal */
+.ns-back_principal {
+    background:url(../index/principal.jpg) no-repeat center center;
+    color:#000;
+	background-size:cover;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	-ms-background-size:cover;
+}
+/* Contenido Imagen Principal */
+.ns-content_principal {
+    padding:135px 0px;
+    overflow:hidden;
+    color: #fff;
+}
+
+.ns-secciones {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+.ns-back {
+    background: url(../index/cover1.jpg) no-repeat top center;
+    background-size: 100% 100%;
+    width: 100%;
+    overflow: hidden;
+ }
+
+ .ns-back_double {
+    background: url(../../recursos/index/cover2.jpg) no-repeat top center;
+    background-size: 100% 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+ .contenedor {overflow:hidden;}
+
+ .zoom {
+    /* Aumentamos la anchura y altura durante 2 segundos */
+    transition: width 2s, height 2s, transform 2s;
+    -moz-transition: width 2s, height 2s, -moz-transform 2s;
+    -webkit-transition: width 2s, height 2s, -webkit-transform 2s;
+    -o-transition: width 2s, height 2s,-o-transform 2s;
+}
+
+.zoom:hover {
+    /* tranformamos el elemento al pasar el mouse por encima al doble de
+       su tamaño con scale(2). */
+    transform : scale(1.2);
+    -moz-transform : scale(1.2);      /* Firefox */
+    -webkit-transform : scale(1.2);   /* Chrome - Safari */
+    -o-transform : scale(1.2);        /* Opera */
+}
+
+/* Fuentes de Texto */
+.ns-title_ppal {
+    /* FALTA AGREGAR ESTILO */
+}
+
+.ns-text_ppal {
+    /* FALTA AGREGAR ESTILO */
+}
+
+.ns-section_title {
+    /* FALTA AGREGAR ESTILO */
+}
+
+.ns-section_text {
+    /* FALTA AGREGAR ESTILO */
+}
+
+.ns-carrusel_text {
+    /* FALTA AGREGAR ESTILO */
+}
+
+.ns-footer_text {
+    /* FALTA AGREGAR ESTILO */
+}
