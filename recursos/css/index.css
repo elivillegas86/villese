@@ -37,7 +37,12 @@
     overflow: hidden;
 }
 
+/* Se utiliza para contener las imagenes q hacen zoom para q sobresalgan del contenedor */
  .contenedor {overflow:hidden;}
+
+.separate{
+    height: 100px;
+}
 
  .zoom {
     /* Aumentamos la anchura y altura durante 2 segundos */
