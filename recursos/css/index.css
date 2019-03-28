@@ -108,9 +108,8 @@ margin: auto;
 .navbar2 {
     background-color: #005a87;
     opacity: 1;
-    padding-top: 0.2em !important;
-    padding-bottom: 0.2em !important;
-    opacity: 1;
+    padding-top: 0.1em !important;
+    padding-bottom: 0.1em !important;
     -webkit-transition:padding 0.2s ease;
     -moz-transition:padding 0.2s ease; 
     -o-transition:padding 0.2s ease;        
@@ -125,12 +124,22 @@ margin: auto;
     -moz-border-radius;
 }
 
+.navbar-brand-logo-grande {
+    height: 65px;
+}
+
+.navbar-brand-logo-chico {
+    height: 15px;
+}
+
 .navbar-brand-logo-visible {
-    visibility: visible;
+    /* visibility: visible; */
+    width: 100px; height: 100px;
 }
 
 .navbar-brand-logo-invisible {
-    visibility: hidden;
+    /* visibility: hidden; */
+    width: 50px; height: 50px;
 }
 
 .navbar-nav li > .active {

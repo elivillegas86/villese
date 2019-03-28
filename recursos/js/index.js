@@ -7,15 +7,11 @@ $(window).scroll(function() {
         //window.alert("scroll2");
         $("#menu").removeClass("navbar2");
     }
-    if ($("#logo-horizontal").offset().top > 56) {
-        $("#logo-horizontal").addClass("navbar-brand-logo-invisible");
-        $("#logo-horizontal").removeClass("navbar-brand-logo-visible");
-        $("#logo").addClass("navbar-brand-logo-visible");
-        $("#logo").removeClass("navbar-brand-logo-invisible");
+    if ($("#logo").offset().top > 56) {
+        $("#logo").addClass("navbar-brand-logo-chico");
+        $("#logo").removeClass("navbar-brand-logo-grande");
     } else {
-        $("#logo-horizontal").addClass("navbar-brand-logo-visible");
-        $("#logo-horizontal").removeClass("navbar-brand-logo-invisible");
-        $("#logo").addClass("navbar-brand-logo-invisible");
-        $("#logo").removeClass("navbar-brand-logo-visible");
+        $("#logo").addClass("navbar-brand-logo-grande");
+        $("#logo").removeClass("navbar-brand-logo-chico");
     }
   });
