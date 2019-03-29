@@ -8,10 +8,14 @@ $(window).scroll(function() {
         $("#menu").removeClass("navbar2");
     }
     if ($("#logo").offset().top > 56) {
-        $("#logo").addClass("navbar-brand-logo-chico");
-        $("#logo").removeClass("navbar-brand-logo-grande");
+        document.getElementById('logo').src = "recursos/index/nomadesoft-logo.png";
+        $("#logo").addClass("navbar-logo");
     } else {
-        $("#logo").addClass("navbar-brand-logo-grande");
-        $("#logo").removeClass("navbar-brand-logo-chico");
+        document.getElementById('logo').src = "recursos/index/nomadesoft-logo-horizontal.png";
+        $("#logo").removeClass("navbar-logo");
     }
   });
+
+  $('.carousel').carousel({
+    interval: 1500
+  })
