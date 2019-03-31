@@ -1,0 +1,14 @@
+Animaciones Disponibles:
+- bounce
+- bounceInLeft
+- bounceInRight
+- fadeIn
+- fadeInUp
+- slideInUp
+- slideInLeft
+- slideInRight
+- rotateInUpLeft
+- rotateInUpRight
+
+Ejemplo:
+<div class="aniview" data-av-animation="bounceInUp"> </div>

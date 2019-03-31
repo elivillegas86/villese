@@ -72,7 +72,9 @@ margin: auto;
 }
 
 .ns-text_ppal {
-    /* FALTA AGREGAR ESTILO */
+    font-size: 5vh;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px black;
 }
 
 .ns-section_title {

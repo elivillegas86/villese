@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom Css -->
     <link rel="stylesheet" href="recursos/css/index.css">
+    <!-- Animation css -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Inicio NavBar -->
@@ -18,9 +20,6 @@
             <a class="navbar-brand" href="#">
                 <img src="recursos/index/nomadesoft-logo-horizontal.png" alt="NomadeSoft" id="logo"/>
             </a>
-            <!-- <a class="navbar-brand navbar-brand-logo-invisible" href="#" id="logo" >
-                    <img src="recursos/index/nomadesoft-logo.png" alt="NomadeSoft"/>
-            </a> -->
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -70,23 +69,14 @@
 
     <!-- Inicio Seccion Productos -->
     <section id="productos" class="ns-secciones ns-back">
-        <div class="container">
+        <div class="container aniview" data-av-animation="bounceInRight">
             <div class="row animate-in">
                 <div class="text-left col-md-6">
                     <h1 class="mb-3 ns-section_title">Productos</h1>
                     <p class="lead ns-section_text">Mas de 20 años creando valor con productos y soluciones de software de calidad.</p>
                 </div>
                 <div class="col-md-6">
-                        <img class="d-md-block d-none" src="recursos/index/nomadesoft-productos.png" alt="NomadeSoft-Productos" usemap="#Map">
-                        <map name="Map" id="Map">
-                            <area alt="" title="" href="index.html" shape="poly" coords="811,385,810,526,1279,530,1282,383" />
-                            <area alt="" title="" href="#" shape="poly" coords="154,388,153,532,627,534,621,385" />
-                            <area alt="" title="" href="#" shape="poly" coords="816,73,818,219,1290,220,1286,74" />
-                            <area alt="" title="" href="#" shape="poly" coords="1438,389,1439,531,1914,532,1909,388" />
-                            <area alt="" title="" href="#" shape="poly" coords="809,720,811,864,1281,865,1278,717" />
-                            <area alt="" title="" href="#" shape="poly" coords="1489,734,1809,734,1809,861,1492,860" />
-                            <area alt="" title="" href="#" shape="poly" coords="241,721,561,721,559,849,242,847" />
-                        </map>
+                    <img class="d-md-block d-none zoom" src="recursos/index/nomadesoft-productos.png" alt="NomadeSoft-Productos">
                 </div>
             </div>
         </div>
@@ -95,7 +85,7 @@
 
     <!-- Inicio seccion servicios -->
     <section id="servicios" class="ns-secciones ns-back_double">
-        <div class="container">
+        <div class="container aniview" data-av-animation="bounceInLeft">
             <div class="row animate-in">
                 <div class="col-md-6">
                     <img class="d-md-block d-none zoom" src="recursos/index/nomadesoft-servicios.png" alt="NomadeSoft-Productos" width="450"></div>
@@ -110,7 +100,7 @@
 
     <!-- Inicio seccion nosotros -->
     <section id="nosotros" class="ns-secciones ns-back_double">
-        <div class="container">
+        <div class="container aniview" data-av-animation="bounceInRight">
             <div class="row animate-in">
                 <div class="text-left col-md-6">
                     <h1 class="mb-3 ns-section_title">Nosotros</h1>
@@ -126,7 +116,7 @@
 
     <!-- Inicio Seccion Clientes -->
     <section id="clientes" class="ns-secciones ns-back_double">
-        <div class="container">
+        <div class="container aniview" data-av-animation="bounceInLeft">
             <div class="row animate-in">
                 <div class="col-md-6">
                     <img class="d-md-block d-none zoom" src="recursos/index/nomadesoft-casosdeexito.png" alt="NomadeSoft-Productos" width="400">
@@ -181,9 +171,10 @@
 
     <!-- Inicio Footer -->
     <section id="footer-menu" class="ns-secciones ns-back_double">
-        <div class="container">
+        <div class="container aniview" data-av-animation="bounceInUp">
             <div class="row animate-in">
                 <div class="col-md-4 text-right">
+                    <h1 class="mb-3 ns-section_title">Contáctenos</h1>
                     <address class="ns-footer_text">
                         <strong>Direccion:</strong><br>
                         Necochea 724<br>
@@ -221,7 +212,9 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <!-- <script src="recursos/js/scrolling-nav.js"></script> -->
+    <!-- Animaciones de carga -->
+    <script src="recursos/js/jquery.aniview.js"></script>
+    <!-- Custom javaScript -->
     <script src="recursos/js/index.js"></script>
 </body>
 </html>

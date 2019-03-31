@@ -14,8 +14,16 @@ $(window).scroll(function() {
         document.getElementById('logo').src = "recursos/index/nomadesoft-logo-horizontal.png";
         $("#logo").removeClass("navbar-logo");
     }
-  });
+});
 
-  $('.carousel').carousel({
+$('.carousel').carousel({
     interval: 1500
-  })
+})
+
+$(document).ready(function() {
+    var options = {
+        animateThreshold: 100,
+        scrollPollInterval: 5
+    };
+    $('.aniview').AniView(options);
+})
