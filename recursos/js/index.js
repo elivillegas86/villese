@@ -11,7 +11,7 @@ $(window).scroll(function() {
         document.getElementById('logo').src = "recursos/index/nomadesoft-logo.png";
         $("#logo").addClass("navbar-logo");
     } else {
-        document.getElementById('logo').src = "recursos/index/nomadesoft-logo-horizontal.png";
+        document.getElementById('logo').src = "recursos/index/nomadesoft-logo-completo.png";
         $("#logo").removeClass("navbar-logo");
     }
 });
