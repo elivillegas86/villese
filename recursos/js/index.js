@@ -14,6 +14,12 @@ $(window).scroll(function() {
         document.getElementById('logo').src = "recursos/index/nomadesoft-logo-completo.png";
         $("#logo").removeClass("navbar-logo");
     }
+    // mostramos u ocultamos flecha top segun donde estemos
+    if ($(this).scrollTop() > 200) {
+        document.getElementById('button_top').style.display = "block";
+    } else {
+        document.getElementById('button_top').style.display = "none";
+    }
 });
 
 $('.carousel').carousel({
@@ -21,9 +27,21 @@ $('.carousel').carousel({
 })
 
 $(document).ready(function() {
+    // Cargamos la libreria de animaciones
     var options = {
         animateThreshold: 100,
         scrollPollInterval: 5
     };
     $('.aniview').AniView(options);
+
+    // Cargo funciones para el scroll
+    $('.nav-item').on('click', function() {
+        // obtenemos el nav-item
+        var item = (this.firstElementChild||this.firstChild);
+        // recuperamos el objetivo a donde tenemos q navegar
+        var target = item.getAttribute('data-target');
+        // navegamos
+        $(target).get(0).scrollIntoView({block: "end", behavior: "smooth"});
+    });
+
 })

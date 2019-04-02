@@ -12,6 +12,8 @@
     <link rel="stylesheet" href="recursos/css/index.css">
     <!-- Animation css -->
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <!-- Inicio NavBar -->
@@ -27,22 +29,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link ripple" href="#principal">Inicio <span class="sr-only">(current)</span></a>
+                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#principal">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ripple" href="#productos">Productos</a>
+                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#productos">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ripple" href="#servicios">Servicios</a>
+                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ripple" href="#nosotros">Nosotros</a>
+                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ripple" href="#clientes">Casos de éxito</a>
+                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#clientes">Casos de éxito</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link ripple" href="#footer-menu">Contáctenos</a>
+                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#footer-menu">Contáctenos</a>
                     </li>
                 </ul>
             </div>
@@ -197,14 +199,19 @@
                 <div class="col-md-4 text-left">
                     <h1 class="mb-3 ns-section_title">Contáctenos</h1>
                     <address class="ns-footer_text">
-                        <strong>Dirección:</strong><br>
-                        Necochea 724<br>
-                        Ciudad, Mendoza.<br>
-                        CP 5500
+                        <strong>Mendoza:</strong><br>
+                        Necochea 724. CP.:5500<br>
+                        Tel./Fax: +54 261 423-5155/7728
                     </address>
                     <address class="ns-footer_text">
-                        <strong>Teléfono:</strong><br>
-                        +54 261 423-5155/7728
+                        <strong>Salta:</strong><br>
+                        General Guemes 614, Piso 1 - C.P.:4400<br>
+                        Tel./Fax: +54 387 421-5951
+                    </address>
+                    <address class="ns-footer_text">
+                        <strong>Ushuaia:</strong><br>
+                        Provincia Grande 395 - C.P.:9410<br>
+                        Tel./Fax: +54 2901 44-0775
                     </address>
                     <address class="ns-footer_text">
                         <strong>E-Mail:</strong><br>
@@ -212,7 +219,8 @@
                     </address>
                 </div>
                 <div class="col-md-1"></div>
-                <div class="col-md-4">
+                <div class="col-md-4 align-bottom">
+                    <br><br><br>
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.463495851919!2d-68.85000818533419!3d-32.885911680939174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093159db114b%3A0xe758ac8a2acbc5c4!2sNomadesoft+SRL!5e0!3m2!1ses-419!2sar!4v1553478811195" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
                 <div class="col-md-3"></div>
@@ -222,12 +230,19 @@
     <!-- Fin Footer -->
 
     <!-- Inicio Footer Copyright -->
-    <div class="container">
-        <div class="footer-copyright text-center py-3">© 2019 Copyright:
+    <div class="container-fluid footer-copyright">
+        <div class="text-center py-3">© 2019 Copyright:
             <a> Vellese </a>
         </div>
     </div>
     <!-- Fin Footer Copyright -->
+
+    <!-- button to top -->
+    <div class="nav-item ns-button_top" id="button_top">
+        <a href="javascript:void(0);" data-target="#principal">
+            <i class="fas fa-chevron-circle-up fa-2x"></i>
+        </a>
+    </div>
 
     <!-- JavaScript para Bootstrap -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
