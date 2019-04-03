@@ -41,7 +41,7 @@ $(document).ready(function() {
         // recuperamos el objetivo a donde tenemos q navegar
         var target = item.getAttribute('data-target');
         // navegamos
-        $(target).get(0).scrollIntoView({block: "end", behavior: "smooth"});
+        $(target).get(0).scrollIntoView({block: "start", behavior: "smooth"});
     });
 
 })
