@@ -15,6 +15,7 @@
     padding:135px 0px;
     overflow:hidden;
     color: #fff;
+    width: 100%;
 }
 
 .ns-secciones {
@@ -77,7 +78,7 @@ margin: auto;
 
 .ns-text_ppal {
     /* font-size: 5vh; */
-    font-size: 2vw;
+    /* font-size: 2vw; */
     font-weight: bold;
     text-shadow: 2px 2px 5px black;
     padding: 25px;
@@ -182,7 +183,7 @@ margin: auto;
     left: 0;
     right: 0;
     bottom: 0;
-    filter: blur(10px);
+    filter: blur(2px);
     margin: -20px;
     z-index: -1;
 }
@@ -230,12 +231,6 @@ html {
     .ns-footer_text {
         text-align: right;
     }
-}
-
-@media screen and (min-width: 800px) {
-    /* body {
-        background-color: lavender;
-    } */
 }
 
 .footer-copyright {
