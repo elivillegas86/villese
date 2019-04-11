@@ -93,6 +93,28 @@ margin: auto;
     font-size: 125%;
 }
 
+.ns-sepia {
+    filter: sepia(60%);
+}
+
+.ns-separate {
+    height: 300px;
+}
+
+.ns-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img.izq {
+    float: left;
+}
+  
+img.der {
+    float: right;
+}
+
 .ns-carrusel_text {
     text-align: center;
     /*font-size: 2vw;*/ /* Ajusta el tamaño según el ancho de la pantalla.*/
