@@ -183,7 +183,7 @@ margin: auto;
     left: 0;
     right: 0;
     bottom: 0;
-    filter: blur(2px);
+    filter: blur(0px);
     margin: -20px;
     z-index: -1;
 }
@@ -200,9 +200,28 @@ margin: auto;
     bottom: 1;
     right: 0; */
 }
+
 .ns-iso{
     width: auto;
     height: 30px;
+}
+
+.ns-afip-div{
+    /* float: right; */
+    background-color: #a3a3a3;
+    background-size: 100%;
+    border-radius: 6px;
+    padding: 0.5em;
+    -moz-border-radius;
+    margin-right:20px;
+    /* position:absolute;
+    bottom: 1;
+    right: 0; */
+}
+
+.ns-afip{
+    width: auto;
+    height: 40px;
 }
 /*   
 html {
@@ -236,6 +255,7 @@ html {
 .footer-copyright {
     background-color: #005a87;
     color: #fff;
+    height: auto;
 }
 
 .ns-button_top{
@@ -250,4 +270,23 @@ html {
     -ms-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
+}
+
+
+.imagen:hover{
+    filter: blur(0px);
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.imagen{
+    filter: blur(5px);
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease;  
 }
