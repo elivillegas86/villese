@@ -8,10 +8,10 @@ $(window).scroll(function() {
         $("#menu").removeClass("navbar2");
     }
     if ($("#logo").offset().top > 56) {
-        document.getElementById('logo').src = "recursos/index/nomadesoft-logo.png";
+        document.getElementById('logo').src = "recursos/index/nomadesoft-logo-completo-horizontal.png";
         $("#logo").addClass("navbar-logo");
     } else {
-        document.getElementById('logo').src = "recursos/index/nomadesoft-logo-completo.png";
+        document.getElementById('logo').src = "recursos/index/nomadesoft-logo-completo-vertical.png";
         $("#logo").removeClass("navbar-logo");
     }
     // mostramos u ocultamos flecha top segun donde estemos
