@@ -56,9 +56,9 @@
 
     <!-- Inicio Imagen Principal -->
     <div id="principal" class="ns-back_principal">
-        <div class="ns-esmerilado imagen">
+        <div class="ns-esmerilado">
             <div class="row">
-                <div class="ns-content_principal imagen">
+                <div class="ns-content_principal">
                         <!--  -->
                     <img width="400" class="img-fluid mx-auto d-block" src="recursos/index/logo+marcaNS-blanco.svg"/>
                     <!-- <h1 class="ns-titulo-ppal text-center ns-back_principal_22">
@@ -85,7 +85,7 @@
     <!-- Inicio Seccion Productos -->
     <!-- <section id="productos" class="ns-secciones ns-back"> -->
     <section id="productos" class="ns-secciones ns-back_double">
-        <div class="container aniview" data-av-animation="bounceInRight">
+        <div id="productosdiv" class="container aniview" data-av-animation="bounceInRight">
             <div class="row animate-in">
                 <div class="text-left col-md-6">
                     <h1 class="mb-3 ns-section_title">Productos</h1>
@@ -101,7 +101,7 @@
 
     <!-- Inicio seccion servicios -->
     <section id="servicios" class="ns-secciones ns-back_double">
-        <div class="container aniview" data-av-animation="bounceInLeft">
+        <div id="serviciosdiv" class="container aniview" data-av-animation="bounceInLeft">
             <div class="row animate-in">
                 <div class="col-md-6">
                     <img class="d-md-block d-none zoom" src="recursos/index/nomadesoft-servicios.png" alt="NomadeSoft-Productos" width="450">
@@ -117,7 +117,7 @@
 
     <!-- Inicio seccion nosotros -->
     <section id="nosotros" class="ns-secciones ns-back_double">
-        <div class="container aniview" data-av-animation="bounceInRight">
+        <div id="nosotrosdiv" class="container aniview" data-av-animation="bounceInRight">
             <div class="row animate-in">
                 <div class="text-left col-md-6">
                     <h1 class="mb-3 ns-section_title">Nosotros</h1>
@@ -133,7 +133,7 @@
 
     <!-- Inicio Seccion Clientes -->
     <section id="clientes" class="ns-secciones ns-back_double">
-        <div class="container aniview" data-av-animation="bounceInLeft">
+        <div id="clientesdiv" class="container aniview" data-av-animation="bounceInLeft">
             <div class="row animate-in">
                 <div class="col-md-6">
                     <img class="d-md-block d-none zoom" src="recursos/index/nomadesoft-casosdeexito.png" alt="NomadeSoft-Productos" width="400">
@@ -223,15 +223,22 @@
     </section>
     <!-- Fin Footer -->
 
+    <div class="footer-copyright">
+        <div class="d-flex justify-content-center align-items-center">
+            <div class="row">
+                <div class="px-2">
+                    <a href="http://qr.afip.gob.ar/?qr=lRUDVftGbg2OLRukLtFwYA,," target="_F960AFIPInfo"><img class="ns-afip img-fluid mx-auto d-block" src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" border="0"></a>
+                </div>
+                <div class="ns-iso-div w-25 px-2">
+                    <img class="img-fluid d-block" src="recursos/index/nomadesoft-iso-9001.png" alt="NomadeSoft-ISO-9001">
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Inicio Footer Copyright -->
     <div class="container-fluid footer-copyright">
-        <div class="float-left ns-afip-div">
-            <a href="http://qr.afip.gob.ar/?qr=lRUDVftGbg2OLRukLtFwYA,," target="_F960AFIPInfo"><img class="ns-afip img-fluid mx-auto d-block" src="http://www.afip.gob.ar/images/f960/DATAWEB.jpg" border="0"></a>
-        </div>
-        <div class="float-right ns-iso-div">
-            <img class="ns-iso img-fluid mx-auto d-block" src="recursos/index/nomadesoft-iso-9001.png" alt="NomadeSoft-ISO-9001">
-        </div>
-        <div class="text-center py-3">© 2019 Copyright:
+        <div class="text-left py-3">© 2019 Copyright:
             <a> Vellese </a>
         </div>
     </div>

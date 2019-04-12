@@ -20,6 +20,51 @@ $(window).scroll(function() {
     } else {
         document.getElementById('button_top').style.display = "none";
     }
+    // aplicamos efecto desenfocado a las secciones
+    // Seccion Productos
+    var inicio = $("#productos").offset().top - 100
+    var fin = inicio + ($("#productos")[0].clientHeight / 2)
+    if (($(this).scrollTop() < inicio) 
+        || ($(this).scrollTop() > fin)) {
+        $("#productosdiv").addClass("ns-desenfoque");
+        $("#productosdiv").removeClass("ns-enfoque");
+    } else {
+        $("#productosdiv").removeClass("ns-desenfoque");
+        $("#productosdiv").addClass("ns-enfoque");
+    }
+    // Seccion Servicios
+    var inicio = $("#servicios").offset().top - 100
+    var fin = inicio + ($("#servicios")[0].clientHeight / 2)
+    if (($(this).scrollTop() < inicio) 
+        || ($(this).scrollTop() > fin)) {
+        $("#serviciosdiv").addClass("ns-desenfoque");
+        $("#serviciosdiv").removeClass("ns-enfoque");
+    } else {
+        $("#serviciosdiv").removeClass("ns-desenfoque");
+        $("#serviciosdiv").addClass("ns-enfoque");
+    }
+    // Seccion Nosotros
+    var inicio = $("#nosotros").offset().top - 100
+    var fin = inicio + ($("#nosotros")[0].clientHeight / 2)
+    if (($(this).scrollTop() < inicio) 
+        || ($(this).scrollTop() > fin)) {
+        $("#nosotrosdiv").addClass("ns-desenfoque");
+        $("#nosotrosdiv").removeClass("ns-enfoque");
+    } else {
+        $("#nosotrosdiv").removeClass("ns-desenfoque");
+        $("#nosotrosdiv").addClass("ns-enfoque");
+    }
+    // Seccion Casos de Exito
+    var inicio = $("#clientes").offset().top - 100
+    var fin = inicio + ($("#clientes")[0].clientHeight / 2)
+    if (($(this).scrollTop() < inicio) 
+        || ($(this).scrollTop() > fin)) {
+        $("#clientesdiv").addClass("ns-desenfoque");
+        $("#clientesdiv").removeClass("ns-enfoque");
+    } else {
+        $("#clientesdiv").removeClass("ns-desenfoque");
+        $("#clientesdiv").addClass("ns-enfoque");
+    }
 });
 
 $('.carousel').carousel({
