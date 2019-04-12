@@ -183,9 +183,32 @@ margin: auto;
     left: 0;
     right: 0;
     bottom: 0;
+    filter: blur(10px);
+    margin: -20px;
+    z-index: -1;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; 
+}
+
+.ns-esmerilado:hover:before {
+    content: "";
+    position: absolute;
+    background: inherit;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
     filter: blur(0px);
     margin: -20px;
     z-index: -1;
+    -webkit-transition: all 1s linear;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all 1s ease; 
 }
 
 .ns-iso-div {
@@ -254,7 +277,7 @@ html {
     height: auto;
 }
 
-.ns-button_top{
+.ns-button_top {
     position: fixed;
     bottom: 20px;
     right: 20px;
