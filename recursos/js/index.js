@@ -1,17 +1,14 @@
 $(window).scroll(function() {
-    //window.alert("scroll");
     if ($("#menu").offset().top > 56) {
-        //window.alert("scroll1");
         $("#menu").addClass("navbar2");
     } else {
-        //window.alert("scroll2");
         $("#menu").removeClass("navbar2");
     }
     if ($("#logo").offset().top > 56) {
-        document.getElementById('logo').src = "recursos/index/nomadesoft-logo.png";
+        document.getElementById('logo').src = "recursos/index/nomadesoft-logo-completo-horizontal.png";
         $("#logo").addClass("navbar-logo");
     } else {
-        document.getElementById('logo').src = "recursos/index/nomadesoft-logo-completo.png";
+        document.getElementById('logo').src = "recursos/index/nomadesoft-logo-completo-vertical.png";
         $("#logo").removeClass("navbar-logo");
     }
     // mostramos u ocultamos flecha top segun donde estemos
@@ -42,6 +39,7 @@ $(document).ready(function() {
         var target = item.getAttribute('data-target');
         // navegamos
         $(target).get(0).scrollIntoView({block: "start", behavior: "smooth"});
+        $('.navbar-collapse').collapse('hide');
     });
 
 })
