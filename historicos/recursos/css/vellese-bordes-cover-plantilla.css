@@ -1,5 +1,10 @@
 /* Background Imagen Principal */
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .ns-back_principal {
     background: url(../index/nomadesoft-principal.jpg) no-repeat center center;
     color: #000;
@@ -27,18 +32,45 @@
     overflow: hidden;
 }
 
-.ns-back {
-    background: url(../../recursos/index/cover1.jpg) no-repeat top center;
-    background-size: 100% 100%;
+.ns-bor {
+    /* background-image: url(../../recursos/index/borsup.svg), url(../../recursos/index/borinf.svg); */
+    background-image: url(../../recursos/index/borinf.svg);
+    /* background-position: top, bottom; */
+    background-position: 0% 100%;
+    /* background-position: left -2px top -2px, left -2px bottom -1px; */
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: contain;
     width: 100%;
     overflow: hidden;
+    /* display: block; */
+    /* vertical-align: bottom; */
+    /* display: inline-block; */
+    /* display: inline; */
+    /* display: block; */
+    /* display: flex; */
+    /* display: flexbox; */
+    /* display: inline-flexbox; */
 }
 
-.ns-back_double {
-    background: url(../../recursos/index/nomadesoft-cover-2.jpg) no-repeat top center;
-    background-size: 100% 100%;
+.ns-bor-img-sup{
     width: 100%;
-    overflow: hidden;
+    display: block;
+    /* display: inherit; */
+    /* display: flex; */
+    font-size: 0;
+    line-height: 0;
+    /* margin-top: -3px; */
+}
+
+.ns-bor-img-inf{
+    width: 100%;
+    display: block;
+    /* display: inherit; */
+    /* display: flex; */
+    font-size: 0;
+    line-height: 0;
+    /* margin-bottom: -3px; */
 }
 
 /* Se utiliza para contener las imagenes q hacen zoom para q sobresalgan del contenedor */
