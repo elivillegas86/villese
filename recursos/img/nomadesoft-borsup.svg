@@ -8,12 +8,12 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.0"
-   width="2002.7919pt"
-   height="283.7955pt"
-   viewBox="0 0 2002.7919 283.79551"
+   width="1125pt"
+   height="159.4124pt"
+   viewBox="0 0 1125 159.4124"
    preserveAspectRatio="xMidYMid meet"
    id="svg10"
-   sodipodi:docname="borsup.svg"
+   sodipodi:docname="borsup-1500x212.svg"
    inkscape:version="0.92.1 r15371"
    inkscape:export-filename="/home/tweety/Dropbox/vellese/mio/recursos/cover/cover3.svg.png"
    inkscape:export-xdpi="4"
@@ -51,9 +51,9 @@
      inkscape:window-height="706"
      id="namedview12"
      showgrid="false"
-     inkscape:zoom="0.66089978"
-     inkscape:cx="2302.5889"
-     inkscape:cy="187.24648"
+     inkscape:zoom="0.23366336"
+     inkscape:cx="1172.7308"
+     inkscape:cy="-288.50035"
      inkscape:window-x="0"
      inkscape:window-y="25"
      inkscape:window-maximized="1"
@@ -74,7 +74,7 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
     <dc:format>image/svg+xml</dc:format>
     <dc:type
        rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-    <dc:title />
+    <dc:title></dc:title>
   </cc:Work>
 </rdf:RDF>
 </metadata>
@@ -82,13 +82,13 @@ Created by potrace 1.15, written by Peter Selinger 2001-2017
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Fondo"
-     transform="translate(1.3961467,0.02548965)">
+     transform="translate(1.3960976,-124.34365)">
     <g
        id="g4507">
       <path
          id="rect4487"
-         style="opacity:1;fill:#01598b;fill-opacity:1;stroke:#01598b;stroke-width:0.50999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         d="M -1.1410923,0.22951035 V 105.751 A 2099.6726,639.3717 5.5951681 0 1 1062.3384,121.17434 2099.6726,639.3717 5.5951681 0 1 2001.1407,283.44094 V 0.22951035 Z"
+         style="opacity:1;fill:#01598b;fill-opacity:1;stroke:#01598b;stroke-width:0.28647512;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="M -1.25286,124.48689 V 183.76 a 1179.4195,359.14526 5.5951681 0 1 597.37338,8.66353 1179.4195,359.14526 5.5951681 0 1 527.34018,91.14774 V 124.48689 Z"
          inkscape:connector-curvature="0" />
     </g>
   </g>

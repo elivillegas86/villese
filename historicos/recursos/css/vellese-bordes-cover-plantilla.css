@@ -33,8 +33,8 @@
 }
 
 .ns-bor {
-    /* background-image: url(../../recursos/index/borsup.svg), url(../../recursos/index/borinf.svg); */
-    background-image: url(../../recursos/index/borinf.svg);
+    /* background-image: url(../../recursos/img/borsup.svg), url(../../recursos/img/borinf.svg); */
+    background-image: url(../../recursos/img/borinf.svg);
     /* background-position: top, bottom; */
     background-position: 0% 100%;
     /* background-position: left -2px top -2px, left -2px bottom -1px; */

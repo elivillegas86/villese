@@ -73,12 +73,12 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 
 .lightbg {
    /* background-color: #f9f9f9;*/
-   background: url(../../recursos/index/cover1.jpg) no-repeat top center;
+   background: url(../../recursos/img/cover1.jpg) no-repeat top center;
     background-size: 100% 100%;
 }
 
 .portfolio{
-    background: url(../../recursos/index/cover2.jpg) no-repeat top center;
+    background: url(../../recursos/img/cover2.jpg) no-repeat top center;
     background-size: 100% 100%;
     width: 100%;
     overflow: hidden;
@@ -105,7 +105,7 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
 }
 
 .ns-clientes{
-    background: url(../../recursos/index/nomadesoft-casodeexitos.jpg) no-repeat top center;
+    background: url(../../recursos/img/nomadesoft-casodeexitos.jpg) no-repeat top center;
 }
 
 html,
