@@ -41,5 +41,13 @@ $(document).ready(function() {
         $(target).get(0).scrollIntoView({block: "start", behavior: "smooth"});
         $('.navbar-collapse').collapse('hide');
     });
-
+    // $('.navbar-brand').on('click', function() {
+    //     // obtenemos el nav-item
+    //     var item = (this.firstElementChild||this.firstChild);
+    //     // recuperamos el objetivo a donde tenemos q navegar
+    //     var target = item.getAttribute('data-target');
+    //     // navegamos
+    //     $(target).get(0).scrollIntoView({block: "start", behavior: "smooth"});
+    //     $('.navbar-collapse').collapse('hide');
+    // });
 })
