@@ -19,7 +19,7 @@
     <!-- Inicio NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="menu">
         <div class="container">
-            <a href="index.html" class="navbar-brand">
+            <a class="navbar-brand ns-scroll" href="javascript:void(0);" data-target="#principal">
                 <img src="recursos/img/nomadesoft-logo-completo-vertical.png" alt="NomadeSoft" id="logo"/>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -29,22 +29,22 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#principal">Inicio <span class="sr-only">(current)</span></a>
+                        <a href="javascript:void(0);" class="nav-link ripple ns-scroll" data-target="#principal">Inicio <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#productos">Productos</a>
+                        <a href="javascript:void(0);" class="nav-link ripple ns-scroll" data-target="#productos">Productos</a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#servicios">Servicios</a>
+                        <a href="javascript:void(0);" class="nav-link ripple ns-scroll" data-target="#servicios">Servicios</a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#nosotros">Nosotros</a>
+                        <a href="javascript:void(0);" class="nav-link ripple ns-scroll" data-target="#nosotros">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#clientes">Casos de éxito</a>
+                        <a href="javascript:void(0);" class="nav-link ripple ns-scroll" data-target="#clientes">Casos de éxito</a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0);" class="nav-link ripple" data-target="#footer-menu">Contáctenos</a>
+                        <a href="javascript:void(0);" class="nav-link ripple ns-scroll" data-target="#footer-menu">Contáctenos</a>
                     </li>
                 </ul>
             </div>
@@ -105,7 +105,8 @@
                 <div class="text-left col-md-6">
                     <h1 class="mb-3 ns-section_title">Nosotros</h1>
                     <p class="lead ns-section_text">"Promovemos el respeto, valorando a las personas como recurso primario, reconociendo el esfuerzo, favoreciendo la capacitación y manteniendo un ambiente saludable de trabajo."</p>
-                    <a class="btn btn-primary" href="nosotros.html" role="button">VER MÁS<span class="spinner-grow spinner-grow-sm"></span><span class="spinner-grow spinner-grow-sm"></span><span class="spinner-grow spinner-grow-sm"></span></a>
+                    <!-- <a class="btn btn-primary" href="nosotros.html" role="button">VER MÁS<span class="spinner-grow spinner-grow-sm"></span><span class="spinner-grow spinner-grow-sm"></span><span class="spinner-grow spinner-grow-sm"></span></a> -->
+                    <a href="javascript:redirigir('nosotros.html','#quienessomos');" class="btn btn-primary">VER MÁS<span class="spinner-grow spinner-grow-sm"></span><span class="spinner-grow spinner-grow-sm"></span><span class="spinner-grow spinner-grow-sm"></span></a>
                 </div>
                 <div class="col-md-6">
                     <img class="d-md-block d-none zoom" src="recursos/img/nomadesoft-nosotros.png" alt="NomadeSoft-Productos" width="400">
@@ -226,8 +227,8 @@
     <!-- Fin Footer Copyright -->
 
     <!-- button to top -->
-    <div class="nav-item ns-button_top" id="button_top">
-        <a href="javascript:void(0);" data-target="#principal">
+    <div class="ns-button_top" id="button_top">
+        <a href="javascript:void(0);" class="ns-scroll" data-target="#principal">
             <i class="fas fa-chevron-circle-up fa-2x"></i>
         </a>
     </div>

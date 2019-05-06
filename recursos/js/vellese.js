@@ -32,13 +32,33 @@ $(document).ready(function() {
     $('.aniview').AniView(options);
 
     // Cargo funciones para el scroll
-    $('.nav-item').on('click', function() {
+    $('.ns-scroll').on('click', function() {
         // obtenemos el nav-item
-        var item = (this.firstElementChild||this.firstChild);
+        //var item = (this.firstElementChild||this.firstChild);
         // recuperamos el objetivo a donde tenemos q navegar
-        var target = item.getAttribute('data-target');
+        var target = this.getAttribute('data-target');
         // navegamos
         $(target).get(0).scrollIntoView({block: "start", behavior: "smooth"});
         $('.navbar-collapse').collapse('hide');
     });
+
+    //Revisamos si tenemos q navergar a algun lado
+    if (typeof(Storage) !== 'undefined') {
+        // Código cuando Storage es compatible
+        var donde = sessionStorage.getItem('donde');
+        sessionStorage.removeItem('donde');
+        if (donde != null){
+            $(donde).get(0).scrollIntoView({block: "start", behavior: "smooth"});
+            $('.navbar-collapse').collapse('hide');
+        };
+    } else {
+       // Código cuando Storage NO es compatible
+       console.log('Storage NO es compatible.');
+    };
+    
 })
+
+function redirigir(url, donde){
+    sessionStorage.setItem('donde', donde);
+    window.location.href = url+donde;
+};
