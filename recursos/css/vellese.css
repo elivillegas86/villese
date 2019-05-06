@@ -107,7 +107,8 @@
 }
 
 .ns-section_text {
-    color: #005a87;
+    /* color: #005a87; */
+    color: #4E5956;
     font-size: 125%;
 }
 
@@ -118,7 +119,7 @@
 }
 
 .ns-footer_text {
-    color: #005a87;
+    color: #4E5956;
 }
 
 .navbar {
@@ -271,6 +272,56 @@
     -o-transition: all 1s ease;
     transition: all 1s ease;
 }
+
+/* ################################ inicio flechas fijas ######################## */
+
+.flecha {
+    border-style: solid;
+    border-width: 18px;
+    width: 0;
+    height: 0;
+}
+.flecha>div {
+    border-style: solid;
+    border-width: 10px;
+    width: 0;
+    height: 0;
+    position:relative;
+}
+
+.flecha.derecha{
+    border-color: transparent transparent transparent #007bff;
+}
+.flecha.derecha>div {
+    border-color: transparent transparent transparent white;
+    top:-10px;
+    left:-21px;
+}
+.flecha.izquierda{
+    border-color: transparent #007bff transparent transparent;
+}
+.flecha.izquierda>div {
+    border-color: transparent white transparent transparent;
+    top:-10px;
+    left:1px;
+}
+.flecha.arriba{
+    border-color: #007bff transparent transparent transparent;
+}
+.flecha.arriba>div {
+    border-color: white transparent transparent transparent;
+    top:-21px;
+    left:-10px;
+}
+.flecha.abajo{
+    border-color: transparent transparent #007bff transparent;
+}
+.flecha.abajo>div {
+    border-color: transparent transparent white transparent;
+    top:1px;
+    left:-10px;
+}
+/* ################################ fin flechas fijas ######################## */
 
 @media screen and (max-width: 800px) {
 
