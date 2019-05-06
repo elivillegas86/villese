@@ -57,3 +57,8 @@ $(document).ready(function() {
     };
     
 })
+
+function redirigir(url, donde){
+    sessionStorage.setItem('donde', donde);
+    window.location.href = url+donde;
+};
