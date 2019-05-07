@@ -42,18 +42,39 @@ $(document).ready(function() {
         $('.navbar-collapse').collapse('hide');
     });
 
-    //Revisamos si tenemos q navergar a algun lado
-    if (typeof(Storage) !== 'undefined') {
-        // Código cuando Storage es compatible
-        var donde = sessionStorage.getItem('donde');
-        sessionStorage.removeItem('donde');
-        if (donde != null){
-            $(donde).get(0).scrollIntoView({block: "start", behavior: "smooth"});
-            $('.navbar-collapse').collapse('hide');
+    if (isSupported()){
+        //Revisamos si tenemos q navergar a algun lado
+        if (typeof(sessionStorage) !== 'undefined') {
+            // Código cuando Storage es compatible
+            var donde = sessionStorage.getItem('donde');
+            sessionStorage.removeItem('donde');
+            if (donde != null){
+                $(donde).get(0).scrollIntoView({block: "start", behavior: "smooth"});
+                $('.navbar-collapse').collapse('hide');
+            };
+        } else {
+        // Código cuando Storage NO es compatible
+        console.log('Storage NO es compatible.');
         };
-    } else {
-       // Código cuando Storage NO es compatible
-       console.log('Storage NO es compatible.');
+    }else{
+        console.log('Storage bloqueado por el navegador.');
     };
     
-})
+});
+
+function goTo(url, donde){
+    if (isSupported()){
+        sessionStorage.setItem('donde', donde);
+    }
+    window.location.href = url;
+};
+
+function isSupported(){
+    try{
+        sessionStorage.setItem('test', 'test');
+        sessionStorage.removeItem('test');
+        return true;
+    }catch (e){
+        return false;
+    }
+};
