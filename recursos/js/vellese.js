@@ -59,7 +59,6 @@ $(document).ready(function() {
     }else{
         console.log('Storage bloqueado por el navegador.');
     };
-    
 });
 
 function goTo(url, donde){
