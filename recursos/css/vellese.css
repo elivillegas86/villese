@@ -273,6 +273,31 @@
     transition: all 1s ease;
 }
 
+@keyframes shadow-pulse
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0,90,135, 0.9);
+  }
+  100% {
+    box-shadow: 0 0 0 10px rgba(0,90,135, 0);
+  }
+}
+
+@keyframes shadow-pulse-big
+{
+  0% {
+    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+  }
+  100% {
+    box-shadow: 0 0 0 70px rgba(0, 0, 0, 0);
+  }
+}
+
+.sobra-animada-1
+{
+  animation: shadow-pulse 2s infinite;
+}
+
 /* ################################ inicio flechas fijas ######################## */
 
 .flecha {
@@ -314,7 +339,7 @@
     left:-10px;
 }
 .flecha.abajo{
-    border-color: transparent transparent #007bff transparent;
+    border-color: transparent transparent #005a87 transparent;
 }
 .flecha.abajo>div {
     border-color: transparent transparent white transparent;
