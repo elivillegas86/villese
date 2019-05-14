@@ -277,25 +277,45 @@
 {
   0% {
     box-shadow: 0 0 0 0px rgba(0,90,135, 0.9);
+    /* -webkit-box-shadow: 0 0 0 0px rgba(0,90,135,0.9); */
   }
   100% {
     box-shadow: 0 0 0 10px rgba(0,90,135, 0);
+    /* -webkit-box-shadow: 0 0 0 0px rgba(0,90,135,0); */
   }
 }
 
 @keyframes shadow-pulse-big
 {
   0% {
-    box-shadow: 0 0 0 0px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 0 0px rgba(0,90,135, 0.1);
+    /* -webkit-box-shadow: 0 0 0 0px rgba(0,90,135,0.1); */
   }
   100% {
-    box-shadow: 0 0 0 70px rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 70px rgba(0,90,135,0);
+    /* -webkit-box-shadow: 0 0 0 70px rgba(0,90,135,0); */
   }
+}
+
+.redondo{
+    border-radius: 200px 200px 200px 200px;
+    -moz-border-radius: 200px 200px 200px 200px;
+    -webkit-border-radius: 200px 200px 200px 200px;
 }
 
 .sobra-animada-1
 {
+  animation: shadow-pulse 1s infinite;
+}
+
+.sobra-animada-2
+{
   animation: shadow-pulse 2s infinite;
+}
+
+.sobra-animada-3
+{
+  animation: shadow-pulse 3s infinite;
 }
 
 /* ################################ inicio flechas fijas ######################## */
