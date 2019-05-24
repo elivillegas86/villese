@@ -17,8 +17,9 @@
     border-color: #007b5e;
 }
 
-section {
-    padding: 60px 0;
+.ns-separate {
+    /* padding: 60px 0; */
+    padding-bottom: 8vw;
 }
 
 section .section-title {
