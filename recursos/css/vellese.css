@@ -43,8 +43,7 @@
 
 .ns-bor {
     background-image: url(../../recursos/img/nomadesoft-borsup.svg), url(../../recursos/img/nomadesoft-borinf.svg);
-    background-position: left 0 top -3px,
-                     left 0 bottom -3px;
+    background-position: left 0 top -3px, left 0 bottom -3px;
     background-repeat: no-repeat;
     background-attachment: local;
     background-size: 110%;
@@ -112,7 +111,7 @@
     font-size: 125%;
 }
 
-.ns-seccion_parrafos{
+.ns-seccion_parrafos {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -244,7 +243,7 @@
     color: #fff;
     height: auto;
     margin-top: -3px;
-		padding-top: 0.5em;
+    padding-top: 0.5em;
 }
 
 .ns-button_top {
@@ -278,50 +277,64 @@
     transition: all 1s ease;
 }
 
-@keyframes shadow-pulse
-{
-  0% {
-    box-shadow: 0 0 0 0px rgba(0,90,135, 0.9);
-    /* -webkit-box-shadow: 0 0 0 0px rgba(0,90,135,0.9); */
-  }
-  100% {
-    box-shadow: 0 0 0 10px rgba(0,90,135, 0);
-    /* -webkit-box-shadow: 0 0 0 0px rgba(0,90,135,0); */
-  }
+@keyframes shadow-pulse {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 90, 135, 0.9);
+        /* -webkit-box-shadow: 0 0 0 0px rgba(0,90,135,0.9); */
+    }
+    100% {
+        box-shadow: 0 0 0 10px rgba(0, 90, 135, 0);
+        /* -webkit-box-shadow: 0 0 0 0px rgba(0,90,135,0); */
+    }
 }
 
-@keyframes shadow-pulse-big
-{
-  0% {
-    box-shadow: 0 0 0 0px rgba(0,90,135, 0.1);
-    /* -webkit-box-shadow: 0 0 0 0px rgba(0,90,135,0.1); */
-  }
-  100% {
-    box-shadow: 0 0 0 70px rgba(0,90,135,0);
-    /* -webkit-box-shadow: 0 0 0 70px rgba(0,90,135,0); */
-  }
+@keyframes shadow-pulse-big {
+    0% {
+        box-shadow: 0 0 0 0px rgba(0, 90, 135, 0.1);
+        /* -webkit-box-shadow: 0 0 0 0px rgba(0,90,135,0.1); */
+    }
+    100% {
+        box-shadow: 0 0 0 70px rgba(0, 90, 135, 0);
+        /* -webkit-box-shadow: 0 0 0 70px rgba(0,90,135,0); */
+    }
 }
 
-.redondo{
+.redondo {
     border-radius: 200px 200px 200px 200px;
     -moz-border-radius: 200px 200px 200px 200px;
     -webkit-border-radius: 200px 200px 200px 200px;
 }
 
-.sobra-animada-1
-{
-  animation: shadow-pulse 1s infinite;
+.sobra-animada-1 {
+    animation: shadow-pulse 1s infinite;
 }
 
-.sobra-animada-2
-{
-  animation: shadow-pulse 2s infinite;
+.sobra-animada-2 {
+    animation: shadow-pulse 2s infinite;
 }
 
-.sobra-animada-3
-{
-  animation: shadow-pulse 3s infinite;
+.sobra-animada-3 {
+    animation: shadow-pulse 3s infinite;
 }
+
+ul {
+    list-style: none;
+}
+
+ul li::before {
+    content: "\2022";
+    color: #005a87;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* .ns-sepia {
+    border: 1px solid silver;
+    display:table-cell;
+    vertical-align:middle;
+} */
 
 /* ################################ inicio flechas fijas ######################## */
 
@@ -331,51 +344,58 @@
     width: 0;
     height: 0;
 }
+
 .flecha>div {
     border-style: solid;
     border-width: 10px;
     width: 0;
     height: 0;
-    position:relative;
+    position: relative;
 }
 
-.flecha.derecha{
+.flecha.derecha {
     border-color: transparent transparent transparent #007bff;
 }
+
 .flecha.derecha>div {
     border-color: transparent transparent transparent white;
-    top:-10px;
-    left:-21px;
+    top: -10px;
+    left: -21px;
 }
-.flecha.izquierda{
+
+.flecha.izquierda {
     border-color: transparent #007bff transparent transparent;
 }
+
 .flecha.izquierda>div {
     border-color: transparent white transparent transparent;
-    top:-10px;
-    left:1px;
+    top: -10px;
+    left: 1px;
 }
-.flecha.arriba{
+
+.flecha.arriba {
     border-color: #007bff transparent transparent transparent;
 }
+
 .flecha.arriba>div {
     border-color: white transparent transparent transparent;
-    top:-21px;
-    left:-10px;
+    top: -21px;
+    left: -10px;
 }
-.flecha.abajo{
+
+.flecha.abajo {
     border-color: transparent transparent #005a87 transparent;
 }
+
 .flecha.abajo>div {
     border-color: transparent transparent white transparent;
-    top:1px;
-    left:-10px;
+    top: 1px;
+    left: -10px;
 }
+
 /* ################################ fin flechas fijas ######################## */
 
-@media screen and (max-width: 800px) {
-
-}
+@media screen and (max-width: 800px) {}
 
 @media screen and (min-width: 700px) {
     .ns-footer_text {
@@ -384,7 +404,7 @@
 }
 
 @media screen and (max-width: 700px) {
-    .ns-seccion_parrafos{
+    .ns-seccion_parrafos {
         margin-top: 5px;
         margin-bottom: 5px;
     }
