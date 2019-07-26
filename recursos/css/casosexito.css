@@ -5,16 +5,16 @@
 
 .btn-primary:hover,
 .btn-primary:focus {
-    background-color: #108d6f;
-    border-color: #108d6f;
+    background-color: #005a87;
+    border-color: #005a87;
     box-shadow: none;
     outline: none;
 }
 
 .btn-primary {
     color: #fff;
-    background-color: #007b5e;
-    border-color: #007b5e;
+    background-color: #005a87;
+    border-color: #00005a877b5e;
 }
 
 .ns-separate {
@@ -24,7 +24,7 @@
 
 section .section-title {
     text-align: center;
-    color: #007b5e;
+    color: #005a87;
     margin-bottom: 50px;
     text-transform: uppercase;
 }
@@ -113,12 +113,12 @@ section .section-title {
 
 .backside .card a {
     font-size: 18px;
-    color: #007b5e !important;
+    color: #005a87 !important;
 }
 
 .frontside .card .card-title,
 .backside .card .card-title {
-    color: #007b5e !important;
+    color: #005a87 !important;
 }
 
 .frontside .card .card-body img {
