@@ -12,7 +12,7 @@
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Custom Css -->
     <link rel="stylesheet" href="recursos/css/vellese.css">
-    <link rel="stylesheet" href="recursos/css/calidad.css">
+    <link rel="stylesheet" href="recursos/css/productos.css">
     <!-- Animation css -->
     <link rel="stylesheet" type="text/css"
         href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.6/animate.min.css">
@@ -39,7 +39,8 @@
                         <a href="javascript:goTo('index.html','#principal');" class="nav-link ripple">Inicio </a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:goTo('index.html','#productos');" class="nav-link ripple">Productos</a>
+                        <a href="javascript:void(0);" class="nav-link ripple ns-scroll" data-target="#principal">Productos<span
+                                class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a href="javascript:goTo('index.html','#servicios');" class="nav-link ripple">Servicios</a>
@@ -48,8 +49,7 @@
                         <a href="javascript:goTo('index.html','#nosotros');" class="nav-link ripple">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a href="javascript:void(0);" class="nav-link ripple ns-scroll" data-target="#principal">Calidad<span
-                            class="sr-only">(current)</span></a>
+                        <a href="javascript:goTo('index.html','#calidad');" class="nav-link ripple">Calidad</a>
                     </li>
                     <li class="nav-item">
                         <a href="javascript:goTo('index.html','#clientes');" class="nav-link ripple">Casos de éxito</a>
@@ -78,52 +78,137 @@
     </div>
     <!-- Fin Imagen Principal -->
 
-    <!-- Inicio Seccion Compromiso con la Calidad -->
-    <section id="compromisocalidad" class="ns-secciones ns-bor">
-        <div class="row animate-in">
-            <div class="text-center col-md-12">
-                <h1 class="mb-3 ns-section_title">Compromiso con la calidad</h1>
-            </div>
-        </div>
-        <div class="row animate-in">
-            <div class="text-center col-md-8 mx-auto ns-seccion_parrafos">
-                <p class="lead ns-section_text">
-                    Desde 2010, se ha desarrollado, mantenido y actualizado un <strong>Sistema de Gestión de la Calidad certificado</strong>, en cumplimiento de la <strong>Norma Internacional “ISO 9001”, primero en su versión 2008 y ahora en su versión 2015</strong>. Para ello se han desarrollado e institucionalizado procesos en concordancia con los requisitos de dicha norma.
-                </p>
-                <p class="lead ns-section_text">
-                    Nuestro Sistema de Gestión de Calidad tiene como objetivo la satisfacción de las partes interesadas  y la mejora de servicios y procesos, todo desarrollado e implementado dentro de un <strong>Ciclo de Mejora Continua</strong> llamado <strong>Ciclo PDCA</strong> (por sus iniciales en inglés).  Este ciclo, es la base de la <strong>Norma ISO 9001:2015</strong> y consiste en: <strong>Planificar, Hacer, Verificar y Actuar</strong>.
-                </p>
-                <div class="row animate-in justify-content-center">
-                    <a href="javascript:void(0);" class="ns-scroll" data-target="#politicacalidad"><i class="fas fa-chevron-circle-down fa-2x redondo sobra-animada-2"></i></a>
+    <!-- Inicio Seccion Productos -->
+    <section id="productos" class="pb-5 ns-secciones ns-bor">
+        <div class="container">
+            <div class="row animate-in">
+                <div class="text-center col-md-12">
+                    <h1 class="mb-3 ns-section_title">Productos</h1>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Fin Compromiso con la Calidad -->
-
-    <!-- Inicio Seccion Politica de Calidad -->
-    <section id="politicacalidad" class="ns-secciones ns-bor">
-        <div class="row animate-in">
-            <div class="text-center col-md-12">
-                <h1 class="mb-3 ns-section_title">Política de Calidad</h1>
+            <div class="row">
+                <!-- Inicio Item -->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="img-fluid"
+                                                src="./recursos/img/nomade-soft-logo-thumbnail-productos-sem.png"
+                                                alt="nomade-soft-gobierno-misiones"></p>
+                                        <h4 class="card-title">SEM</h4>
+                                        <p class="card-text">Sistema de Estacionamiento Medido</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Sistema de Estacionamiento Medido</h4>
+                                        <p class="card-text ns-small-text">En un marco de Modernización y bajo el concepto de Ciudades
+                                            Inteligentes, el Sistema de Estacionamiento Medido (SEM) es una solución
+                                            simple, ecológica, económica y confiable.</p>
+                                        <p><a href="javascript:goTo('producto-sem.html','#producto');">Ver más...</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Item -->
+                <!-- Inicio Item -->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="img-fluid"
+                                                src="./recursos/img/nomade-soft-logo-thumbnail-productos-genrrhh.png"
+                                                alt="nomade-soft-productos-genrrhh"></p>
+                                        <h4 class="card-title">genRRHH</h4>
+                                        <p class="card-text">Sistema de Gestión de Recursos Humanos</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Sistema de Recursos Humanos</h4>
+                                        <p class="card-text ns-small-text">Nuestro producto permite automatizar los procesos
+                                            operativos que realizados en forma manual insumen una gran cantidad de
+                                            recursos. Además brinda información de gestión y estratégica para niveles
+                                            gerenciales y de dirección que son de utilidad para la toma de decisiones y
+                                            control.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Item -->
+                <!-- Inicio Item -->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="img-fluid"
+                                                src="./recursos/img/nomade-soft-logo-thumbnail-productos-genfinanciero.png"
+                                                alt="nomade-soft-productos-genfianciero"></p>
+                                        <h4 class="card-title">genFinanciero</h4>
+                                        <p class="card-text">Sistema de Gestión Financiera</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Sistema Financiero</h4>
+                                        <p class="card-text ns-small-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Item -->
+                <!-- Inicio Item -->
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-4">
+                    <div class="image-flip" ontouchstart="this.classList.toggle('hover');">
+                        <div class="mainflip">
+                            <div class="frontside">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <p><img class="img-fluid"
+                                                src="./recursos/img/nomade-soft-logo-thumbnail-productos-genexpedientes.png"
+                                                alt="nomade-soft-productos-genexpedientes"></p>
+                                        <h4 class="card-title">genExpedientes</h4>
+                                        <p class="card-text">Sistema de Gestión de Expedientes</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="backside">
+                                <div class="card">
+                                    <div class="card-body text-center mt-4">
+                                        <h4 class="card-title">Sistema de Gestión de Expedientes</h4>
+                                        <p class="card-text ns-small-text"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Fin Item -->
             </div>
         </div>
-        <div class="row animate-in">
-            <div class="text-center col-md-8 mx-auto ns-seccion_parrafos">
-                <p class="lead ns-section_text">
-                    En nuestro objetivo de contribuir a la creación de valor a través de productos de Consultoría y Soluciones de Software, nos comprometemos a cumplir los siguientes principios:
-                </p>
-            </div>
-            <ol id="polcal" class="card col-md-6 mx-auto lead ns-section_text">
-                <li>Satisfacer a las partes interesadas, orientando todos los esfuerzos y recursos, con el fin de cumplir los compromisos asumidos.</li>
-                <li>Obtener la rentabilidad necesaria que permita mantenernos competitivos en el mercado nacional e internacional, con un crecimiento organizacional sostenido y adecuado a la demanda.</li>
-                <li>Mantener y mejorar continuamente un Sistema de Gestión de Calidad basado en la innovación de procesos, con prácticas institucionalizadas y que se realicen en forma ejemplar.</li>
-                <li>Fortalecer y promover en la Gestión Pública la utilización de Tecnologías de la Información y Comunicación como medio beneficioso para mejorar la implementación de políticas públicas.</li>
-                <li>Promover el respeto, valorando a las personas como recurso primario, reconociendo el esfuerzo, favoreciendo la capacitación y manteniendo un ambiente saludable de trabajo.</li>
-            </ol>
+        <div class="ns-separate">
         </div>
     </section>
-    <!-- Fin Politica de Calidad -->
+    <!-- Fin Seccion Productos -->
 
     <!-- Inicio Footer -->
     <section id="footer-menu" class="ns-secciones ns-bor">
@@ -220,7 +305,7 @@
     <script src="recursos/js/jquery.aniview.js"></script>
     <!-- Custom javaScript -->
     <script src="recursos/js/vellese.js"></script>
-    <script src="recursos/js/calidad.js"></script>
+    <script src="recursos/js/productos.js"></script>
 </body>
 
 </html>
