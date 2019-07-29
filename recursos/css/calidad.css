@@ -33,7 +33,7 @@
 
 #polcal > li:before {
     position: absolute;
-    top: 0;
+    top: 50;
     left: -0.95em;
     width: 1em;
  
