@@ -37,16 +37,16 @@
     left: -0.95em;
     width: 1em;
  
-    font-size: 4em;
+    font-size: 3em;/*4em;*/
     line-height: 1;
     font-weight: bold;
     text-align: right;
     color: #464646;
      
-    transform: rotate(-25deg);
+    /* transform: rotate(-25deg);
     -ms-transform: rotate(-25deg);
     -webkit-transform: rotate(-25deg);
-    z-index: -99;
+    z-index: -99; */
     overflow: hidden;
      
     content: counter(li-counter);
