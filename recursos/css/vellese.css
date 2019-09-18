@@ -395,6 +395,26 @@
 
 /* ################################ fin flechas fijas ######################## */
 
+div.img{
+    display:table;
+}
+div.img img{
+    margin:0;
+    padding:0;
+}
+div.img span{
+    line-height:normal;
+    font-size:11px;
+    display:table-caption;
+    margin:0;
+    background:#005a87;
+    color:white;
+    font-style:italic;
+    padding:5px;
+    text-align:center;
+}
+
+
 @media screen and (max-width: 800px) {}
 
 @media screen and (min-width: 700px) {
